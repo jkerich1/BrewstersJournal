@@ -21,21 +21,13 @@ function App () {
         <NavBar/>
 
       <div>
-      <Route exact path='/'>
-        <Home/>
-      </Route>
+      <Route exact path='/' component={Home} />
 
-      <Route path='/Boiling'>
-        <Boiling/>
-      </Route>
+      <Route path='/Boiling' component={Boiling} />
 
-      <Route path='/Mashing'>
-        <Mashing/>
-      </Route>
+      <Route path='/Mashing' component={Mashing} />
 
-      <Route path ='/Data'>
-        <Data/>
-      </Route>
+      <Route path ='/Data' component={Data} />
 
       </div>
 
