@@ -16,13 +16,11 @@ function App () {
     return (
       <div>
 
-      <div>
-
-        <NavBar/>
-       
-      </div>
       <Router>
 
+        <NavBar/>
+
+      <div>
       <Route exact path='/'>
         <Home/>
       </Route>
@@ -38,6 +36,8 @@ function App () {
       <Route path ='/Data'>
         <Data/>
       </Route>
+
+      </div>
 
      </Router>
 

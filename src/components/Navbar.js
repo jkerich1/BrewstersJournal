@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "react-router-dom"
+
 import "../style.css"
 
 function Navbar () {
@@ -6,10 +8,10 @@ function Navbar () {
   return (
  
     <div className="topnav">
-      <a className= "active" href="/">Home</a>
-      <a href = "Boiling" >Boiling</a>
-      <a href = "Mashing" >Mashing</a>
-      <a href = "Data" > Data</a>
+      <Link className= "active" to="/">Home</Link>
+      <Link to = "Boiling" >Boiling</Link>
+      <Link to = "Mashing" >Mashing</Link>
+      <Link to = "Data" > Data</Link>
     </div>
     
     
