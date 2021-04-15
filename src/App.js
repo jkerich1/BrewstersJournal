@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from './components/Navbar';
 
 
-import { BrowserRouter as Router, Route, Switch }
+import { Route, Switch }
 from 'react-router-dom'
 import Home from './pages/Home';
 import Boiling from './pages/Boiling';
@@ -16,9 +16,7 @@ function App () {
     return (
       <div>
 
-      <Router>
-
-        <NavBar/>
+      <NavBar/>
 
       <div>
       <Route exact path='/' component={Home} />
@@ -30,8 +28,6 @@ function App () {
       <Route path ='/Data' component={Data} />
 
       </div>
-
-     </Router>
 
      </div>
      
