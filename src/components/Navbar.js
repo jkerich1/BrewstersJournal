@@ -1,17 +1,16 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 import "../style.css"
+import MainNav from "./MainNav";
+import AuthNav from "./AuthNav";
 
 function Navbar () {
 
   return (
  
     <div className="topnav">
-      <Link className= "active" to="/">Home</Link>
-      <Link to = "Boiling" >Boiling</Link>
-      <Link to = "Mashing" >Mashing</Link>
-      <Link to = "Data" > Data</Link>
+      <MainNav />
+      <AuthNav />
     </div>
     
     
