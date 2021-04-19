@@ -17,10 +17,9 @@ function App () {
       <div>
 
       <div>
-
         <NavBar/>
-       
       </div>
+
       <Router>
 
       <Route exact path='/'>

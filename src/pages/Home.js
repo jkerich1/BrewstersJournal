@@ -9,6 +9,7 @@ function Home () {
             <p>Home is where the heart is..</p>
             
         </div>
+
     )
 }
 
