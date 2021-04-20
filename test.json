@@ -1,0 +1,7 @@
+{
+    "Name": "Good Beer",
+    "Category": "Belgian",
+    "Boiling":  "First you Boil to x temp, then you boil to y temp",
+    "Mashing": "You mash it a whole lot until you get tired",
+    "Notes": "This is where you write notes about current and past brews with this recipe"
+}
