@@ -19,9 +19,9 @@ class App extends Component {
   }
 
   callbackFunction = (recipeLoad) => {
-    this.setState({recipeLoaded: recipeLoad})
-    console.log(this.state)
-    sessionStorage.setItem('recipe', JSON.stringify(this.state.recipeLoaded))
+    // this.setState({recipeLoaded: recipeLoad})
+    // console.log(this.state)
+    sessionStorage.setItem('recipe', JSON.stringify(recipeLoad))
   }
 
 
