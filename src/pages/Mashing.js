@@ -1,16 +1,17 @@
 import React, {Component} from "react"
 import image from "../brew.jpg"
 import "../style.css"
+import Button from 'react-bootstrap/Button'
 
 class Mashing extends Component  {
     render(){
     return (
         <div>
-        <div >
+        <div className="shading">
             <h3>Mashing</h3>
             <p>Mashing Data goes here.</p>
-            <button>Start</button>
-            <button >Stop</button>
+            <Button className="button">Start</Button>
+            <Button className="button">Stop</Button>
             
         </div>
         <div>

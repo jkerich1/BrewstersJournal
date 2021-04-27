@@ -57,3 +57,11 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+
+.button {
+  margin-right: 5px;
+}
+
+.shading {
+  background-color: darkgray;
+}
