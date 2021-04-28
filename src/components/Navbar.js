@@ -8,9 +8,8 @@ function Navbar () {
 
 
   return (
-    
 
-    <nav className = "navbar navbar-expand-sm bg-info navbar-dark">
+    <nav className = "navbar navbar-expand-md bg-info navbar-dark">
       <a href="/" className="navbar-brand">BrewMore</a>
         <div className="container">
           <button className="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
@@ -18,7 +17,7 @@ function Navbar () {
           </button>
         <div className="navbar-collapse collapse" id="mainNav">
           <div className="navbar-nav">
-            <a className= "nav-item nav-link active" href="/">Home<span className="sr-only">(current)</span></a>
+            <a className= "nav-item nav-link" href="/">Home<span className="sr-only">(current)</span></a>
             <a className ="nav-item nav-link" href = "Boiling" >Boiling</a>
             <a className ="nav-item nav-link" href = "Mashing" >Mashing</a>
             <a className ="nav-item nav-link" href = "Data" > Data</a>
@@ -26,7 +25,7 @@ function Navbar () {
       </div>
      </div>
     </nav>
-    
+  
   )
 }
 
