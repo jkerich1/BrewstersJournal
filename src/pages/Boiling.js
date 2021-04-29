@@ -19,9 +19,12 @@ function Boiling() {
             
             
         </div>
-        <div className="embed-responsive embed-responsive-21by9">
-            <iframe className="embed-responsive-item" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l" className="iframe"></iframe>
+        <div>
+            <iframe className="iframe" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l"></iframe>
         </div>
+        {/* <div className="embed-responsive embed-responsive-21by9">
+            <iframe className="embed-responsive-item" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l" allowfullscreen></iframe>
+        </div> */}
         </div>
     )
     }
