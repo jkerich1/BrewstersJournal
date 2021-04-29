@@ -9,6 +9,7 @@ function Navbar () {
 
   return (
 
+
     <nav className = "navbar navbar-expand-sm bg-info navbar-dark">
       <a href="/" className="navbar-brand">Brewsters</a>
         <div className="container">
@@ -21,11 +22,11 @@ function Navbar () {
             <a className ="nav-item nav-link" href = "Boiling" >Boiling</a>
             <a className ="nav-item nav-link" href = "Mashing" >Mashing</a>
             <a className ="nav-item nav-link" href = "Data" > Data</a>
+            <a className ="nav-item nav-link" href = "Recipe" > Recipe</a>
           </div> 
       </div>
      </div>
     </nav>
-  
   )
 }
 

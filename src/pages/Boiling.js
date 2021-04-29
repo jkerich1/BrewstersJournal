@@ -4,8 +4,16 @@ import "../style.css"
 import Button from 'react-bootstrap/Button'
 
 
-function Boiling() {
-     
+class Boiling extends Component {
+    constructor() {
+        super()
+        var r = sessionStorage.getItem('recipe')
+        if (r !== null)
+            this.state = JSON.parse(r).Boiling
+
+    }
+
+    render() {
     return (
         <div>
         
@@ -25,9 +33,14 @@ function Boiling() {
         {/* <div className="embed-responsive embed-responsive-21by9">
             <iframe className="embed-responsive-item" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l" allowfullscreen></iframe>
         </div> */}
+        <textarea className="result" value={this.state} >
+
+                </textarea>
         </div>
     )
+
     }
+}
 
 
 export default Boiling
