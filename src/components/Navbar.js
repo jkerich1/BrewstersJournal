@@ -1,19 +1,32 @@
 import React from "react"
 import "../style.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 
 function Navbar () {
 
+
   return (
- 
-    <div className="topnav">
-      <a className= "active" href="/">Home</a>
-      <a href = "Boiling" >Boiling</a>
-      <a href = "Mashing" >Mashing</a>
-      <a href = "Data" > Data</a>
-      <a href = "Recipe" > Recipe</a>
-    </div>
-    
-    
+
+
+    <nav className = "navbar navbar-expand-sm bg-info navbar-dark">
+      <a href="/" className="navbar-brand">Brewsters</a>
+        <div className="container">
+          <button className="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        <div className="navbar-collapse collapse" id="mainNav">
+          <div className="navbar-nav">
+            <a className= "nav-item nav-link" href="/">Home<span className="sr-only">(current)</span></a>
+            <a className ="nav-item nav-link" href = "Boiling" >Boiling</a>
+            <a className ="nav-item nav-link" href = "Mashing" >Mashing</a>
+            <a className ="nav-item nav-link" href = "Data" > Data</a>
+            <a className ="nav-item nav-link" href = "Recipe" > Recipe</a>
+          </div> 
+      </div>
+     </div>
+    </nav>
   )
 }
 

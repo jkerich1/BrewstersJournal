@@ -15,13 +15,12 @@ import Recipe from './pages/Recipe';
 class App extends Component {
   constructor() {
     super();
-
   }
 
   callbackFunction = (recipeLoad) => {
-    this.setState({recipeLoaded: recipeLoad})
-    console.log(this.state)
-    sessionStorage.setItem('recipe', JSON.stringify(this.state.recipeLoaded))
+    // this.setState({recipeLoaded: recipeLoad})
+    // console.log(this.state)
+    sessionStorage.setItem('recipe', JSON.stringify(recipeLoad))
   }
 
 
