@@ -10,7 +10,7 @@ function Navbar () {
   return (
 
     <nav className = "navbar navbar-expand-md bg-info navbar-dark">
-      <a href="/" className="navbar-brand">BrewMore</a>
+      <a href="/" className="navbar-brand">Brewsters</a>
         <div className="container">
           <button className="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
             <span className="navbar-toggler-icon"></span>
