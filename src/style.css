@@ -58,6 +58,14 @@
   overflow-x: hidden;
 }
 
+.button {
+  margin-right: 5px;
+}
+
+.shading {
+  background-color: darkgray;
+}
+
 .result {
   display:block;
   width:100%;

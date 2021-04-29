@@ -15,7 +15,6 @@ import Recipe from './pages/Recipe';
 class App extends Component {
   constructor() {
     super();
-
   }
 
   callbackFunction = (recipeLoad) => {
