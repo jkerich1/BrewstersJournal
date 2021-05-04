@@ -23,6 +23,7 @@ function Navbar () {
             <a className ="nav-item nav-link" href = "Mashing" >Mashing</a>
             <a className ="nav-item nav-link" href = "Data" > Data</a>
             <a className ="nav-item nav-link" href = "Recipe" > Recipe</a>
+            <a className ="nav-item nav-link" href = "Notes" > Notes</a>
           </div> 
       </div>
      </div>
