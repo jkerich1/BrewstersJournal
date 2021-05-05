@@ -46,7 +46,7 @@ export class Notes extends Component {
         this.setState({ notes: this.state.notes.map(note => note.id === newNote.id ? newNote : note)});
     };
 
-    // Determine if form to add new note is to be displayed or not
+    // Determine if form "Create new note" is to be displayed or not
     handleOnCreateNoteClicked = () => {
         this.setState({ showCreateNote: !this.state.showCreateNote })
     }
