@@ -14,25 +14,22 @@ export class Note extends Component {
                         <>    
                             <h5 className="card-title" style={{ display: "flex", alignItems : "center", 
                             justifyContent: "space-between" }}>
-                                {this.props.title}
+                                {this.props.note.title}
                                 <div>
                                     <MdEdit onClick={() => this.setState({ showEditNote: true })}
                                     style={{ cursor: "pointer", marginRight: "1em" }}
                                     />
-                                    <FaTimes onClick={() => this.props.onNoteDeleted(this.props.id)}
+                                    <FaTimes onClick={() => this.props.onNoteDeleted(this.props.note.id)}
                                     style={{ color: "red", cursor: "pointer" }}
                                     />
                                 </div>
                             </h5>
-                            <p className="card-text">{this.props.description}</p>
-                            <p className="card-text"><small className="text-muted">{this.props.timeStamp}</small></p>
+                            <p className="card-text">{this.props.note.description}</p>
+                            <p className="card-text"><small className="text-muted">{this.props.note.timeStamp}</small></p>
                         </>) 
                         : 
                         (<EditNote
-                        id={this.props.id} 
-                        title={this.props.title}
-                        description={this.props.description}
-                        timeStamp={this.props.timeStamp}
+                        note={this.props.note}
                         onNoteEdited={this.props.onNoteEdited}
                         onEditDone={() => {this.setState({ showEditNote: false })}}
                         />)}

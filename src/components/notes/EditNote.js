@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 
 export class EditNote extends Component {
-    state = { id: this.props.id, title: this.props.title, description: this.props.description, timeStamp: this.props.timeStamp }
+    state = { id: this.props.note.id, 
+              title: this.props.note.title, 
+              description: this.props.note.description, 
+              timeStamp: this.props.note.timeStamp }
 
     handleOnSaveChangesClicked = e => {
       e.preventDefault();
