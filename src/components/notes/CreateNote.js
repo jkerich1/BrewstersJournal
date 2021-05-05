@@ -27,7 +27,7 @@ export class CreateNote extends Component {
             {!this.props.showCreateNote ? "Create Note" : "Close"}</button>
 
           {this.props.showCreateNote ? (
-            <div className="card" style={{ 'width': '25rem' }}>
+            <div className="card mt-2" style={{ 'width': '22.2rem' }}>
                 <div className="card-header">Create new note</div>
                 <div className="card-body">
                     <form onSubmit={this.handleOnSubmitClicked}>
