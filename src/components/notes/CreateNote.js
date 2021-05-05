@@ -11,11 +11,11 @@ export class CreateNote extends Component {
       return;
     }
 
-    this.setState({ timeStamp: new Date().toString() });
-
-    this.props.onNoteSaved(this.state);
-
-    this.setState({ title: "", description: "" });
+    this.setState({ timeStamp: new Date().toString() }, 
+                  () => {
+                          this.props.onNoteSaved(this.state); 
+                          this.setState({ title: "", description: "" });
+                        });
   };
 
   render() {
