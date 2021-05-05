@@ -9,9 +9,11 @@ export class DisplayNotes extends Component {
                 {this.props.notes.map(note => {
                     return <Note 
                             key={note.id} 
+                            id={note.id} 
                             title={note.title}
                             description={note.description}
                             timeStamp={note.timeStamp}
+                            onNoteDeleted={this.props.onNoteDeleted}
                             />
 
                 })}
