@@ -14,6 +14,7 @@ export class DisplayNotes extends Component {
                             description={note.description}
                             timeStamp={note.timeStamp}
                             onNoteDeleted={this.props.onNoteDeleted}
+                            onNoteEdited={this.props.onNoteEdited}
                             />
 
                 })}
