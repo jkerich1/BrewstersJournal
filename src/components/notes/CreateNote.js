@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import DropDown from './DropDown';
 
 export class CreateNote extends Component {
-  state = { title: "", description: "", timeStamp: new Date().toString(), bgColor:"", textColor:"" }
+  state = { title: "", description: "", timeStamp: new Date().toString(), bgColor:"primary", textColor:"white" }
 
   handleOnSubmitClicked = e => {
     e.preventDefault();
