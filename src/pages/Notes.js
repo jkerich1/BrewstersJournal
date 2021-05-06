@@ -18,8 +18,14 @@ export class Notes extends Component {
                     },
                     {
                     id: 2,
-                    title: "Second Note",
-                    description: "Hello, this is my second note",
+                    title: "What is Lorem Ipsum?",
+                    description: "Lorem Ipsum is simply dummy text of the printing \
+                                  and typesetting industry. Lorem Ipsum has been the \
+                                  industry's standard dummy text ever since the 1500s, \
+                                  when an unknown printer took a galley of type and scrambled \
+                                  it to make a type specimen book. It has survived not only five \
+                                  centuries, but also the leap into electronic typesetting, \
+                                  remaining essentially unchanged.",
                     timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)",
                     bgColor:"secondary",
                     textColor:"white"
@@ -30,6 +36,30 @@ export class Notes extends Component {
                     description: "Hello, this is my third note",
                     timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)",
                     bgColor:"success",
+                    textColor:"white"
+                    },
+                    {
+                    id: 4,
+                    title: "Fourth Note",
+                    description: "",
+                    timeStamp: "Sat Mar 23 2021 12:44:33 GMT-0500 (Central Daylight Time)",
+                    bgColor:"white",
+                    textColor:"dark"
+                    },
+                    {
+                    id: 5,
+                    title: "Fifth Note",
+                    description: "Hello, this is my third note",
+                    timeStamp: "Sat Mar 25 2021 12:44:33 GMT-0500 (Central Daylight Time)",
+                    bgColor:"info",
+                    textColor:"white"
+                    },
+                    {
+                    id: 6,
+                    title: "Sixth Note",
+                    description: "Hello, this is my sixth note",
+                    timeStamp: "Sat Mar 28 2021 12:44:33 GMT-0500 (Central Daylight Time)",
+                    bgColor:"info",
                     textColor:"white"
                     }
                 ]
