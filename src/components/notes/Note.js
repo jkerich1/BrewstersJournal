@@ -8,7 +8,7 @@ export class Note extends Component {
 
     render() {
         return (
-                <div className="card">
+                <div className={`card bg-${this.props.note.bgColor} text-${this.props.note.textColor}`}>
                     <div className="card-body">
                         {!this.state.showEditNote ? (
                         <>    
@@ -25,7 +25,9 @@ export class Note extends Component {
                                 </div>
                             </h5>
                             <p className="card-text">{this.props.note.description}</p>
-                            <p className="card-text"><small className="text-muted">{this.props.note.timeStamp}</small></p>
+                            <p className="card-text">
+                            <small className={`${this.props.note.bgColor === "white" ? "text-muted": ""}`}>
+                            {this.props.note.timeStamp}</small></p>
                         </>) 
                         : 
                         (<EditNote

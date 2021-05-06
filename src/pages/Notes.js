@@ -12,19 +12,25 @@ export class Notes extends Component {
                     id: 1,
                     title: "First Note",
                     description: "Hello, this is my first note",
-                    timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)"
+                    timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)",
+                    bgColor:"primary",
+                    textColor:"white"
                     },
                     {
                     id: 2,
                     title: "Second Note",
                     description: "Hello, this is my second note",
-                    timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)"
+                    timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)",
+                    bgColor:"secondary",
+                    textColor:"white"
                     },
                     {
                     id: 3,
                     title: "Third Note",
                     description: "Hello, this is my third note",
-                    timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)"
+                    timeStamp: "Sat Mar 27 2021 12:44:33 GMT-0500 (Central Daylight Time)",
+                    bgColor:"success",
+                    textColor:"white"
                     }
                 ]
             };

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import DropDown from './DropDown';
 
 export class CreateNote extends Component {
-  state = { title: "", description: "", timeStamp: new Date().toString() }
+  state = { title: "", description: "", timeStamp: new Date().toString(), bgColor:"", textColor:"" }
 
   handleOnSubmitClicked = e => {
     e.preventDefault();
@@ -31,6 +32,9 @@ export class CreateNote extends Component {
                 <div className="card-header">Create new note</div>
                 <div className="card-body">
                     <form onSubmit={this.handleOnSubmitClicked}>
+                    <div className="form-group">
+                      <DropDown onOptionClicked={(option) => {this.setState({ bgColor:option.bgColor, textColor: option.textColor })}}/>
+                    </div>
                     <div className="form-group">
                         <label>Title</label>
                         <input

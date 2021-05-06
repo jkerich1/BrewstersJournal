@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 
+import DropDown from './DropDown'
+
 export class EditNote extends Component {
     state = { id: this.props.note.id, 
               title: this.props.note.title, 
               description: this.props.note.description, 
-              timeStamp: this.props.note.timeStamp }
+              timeStamp: this.props.note.timeStamp,
+              bgColor: this.props.note.bgColor,
+              textColor: this.props.note.textColor }
 
     handleOnSaveChangesClicked = e => {
       e.preventDefault();
@@ -25,6 +29,9 @@ export class EditNote extends Component {
       return (
             <>
                 <form onSubmit={this.handleOnSaveChangesClicked}>
+                <div className="form-group">
+                  <DropDown onOptionClicked={(option) => {this.setState({ bgColor:option.bgColor, textColor: option.textColor })}}/>
+                </div>
                 <div className="form-group">
                     <label>Title</label>
                     <input
