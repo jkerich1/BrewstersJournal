@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Note from './Note'
+import SearchBar from '../search/SearchBar';
 
 export class DisplayNotes extends Component {
     state = { filteredNotes: [] };
@@ -51,13 +52,7 @@ export class DisplayNotes extends Component {
     render() {
         return (
             <>
-                <form className="form-inline my-2 my-lg-3">
-                    <input className="form-control mr-sm-2" 
-                    type="search" placeholder="Search by title..." 
-                    aria-label="Search"
-                    onChange={this.handleOnSearchTermChanged} />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <SearchBar onSearchTermChanged={this.handleOnSearchTermChanged} />
                 
                 <div className="card-columns mt-3">
                     {this.state.filteredNotes.map(note => {
