@@ -20,8 +20,10 @@ class Boiling extends Component {
         <div className="shading">
             <h3> Boiling</h3>
             <p>Boiling Data goes here.</p>
-            <Button className="button">Start</Button>
-            <Button className="button">Stop</Button>
+            
+            <Button className="button" onClick={() => window.open('https://afeb278ac10b.ngrok.io/start', "_blank")}>Start</Button>
+         
+            <Button className="button" onClick={() => window.open('https://afeb278ac10b.ngrok.io/stop', "_blank")}>Stop</Button>
             
 
             
@@ -30,9 +32,7 @@ class Boiling extends Component {
         <div>
             <iframe className="iframe" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l"></iframe>
         </div>
-        {/* <div className="embed-responsive embed-responsive-21by9">
-            <iframe className="embed-responsive-item" src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l" allowfullscreen></iframe>
-        </div> */}
+      
         <textarea className="result" value={this.state} >
 
                 </textarea>

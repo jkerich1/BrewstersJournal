@@ -3,6 +3,8 @@ import image from "../brew.jpg"
 import "../style.css"
 import Button from 'react-bootstrap/Button'
 
+import {Route} from 'react-router-dom'
+
 class Mashing extends Component  {
   constructor() {
         super()
@@ -17,8 +19,13 @@ class Mashing extends Component  {
         <div className="shading">
             <h3>Mashing</h3>
             <p>Mashing Data goes here.</p>
-            <Button className="button">Start</Button>
-            <Button className="button">Stop</Button>
+                <Button className="button" onClick={() => window.open('https://afeb278ac10b.ngrok.io/start', "_blank")}>Start</Button>
+         
+                <Button className="button" onClick={() => window.open('https://afeb278ac10b.ngrok.io/stop', "_blank")}>Stop</Button>
+           
+            
+           
+            
             
         </div>
         <div>
