@@ -29,7 +29,7 @@ class Mashing extends Component  {
             
         </div>
         <div>
-        <iframe src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l" className="iframe"></iframe>
+        <iframe src="https://iot.app.initialstate.com/embed/#/tiles/bkt_17iu8kolvd30z" className="iframe"></iframe>
         </div>
         <textarea className="result" value={this.state} >
 
