@@ -19,9 +19,9 @@ class Mashing extends Component  {
         <div className="shading">
             <h3>Mashing</h3>
             <p>Mashing Data goes here.</p>
-                <Button className="button" onClick={() => window.open('https://afeb278ac10b.ngrok.io/start', "_blank")}>Start</Button>
+                <Button className="button" onClick={() => window.open('https://811b8f7d466f.ngrok.io/start', "_blank")}>Start</Button>
          
-                <Button className="button" onClick={() => window.open('https://afeb278ac10b.ngrok.io/stop', "_blank")}>Stop</Button>
+                <Button className="button" onClick={() => window.open('https://811b8f7d466f.ngrok.io/stop', "_blank")}>Stop</Button>
            
             
            
@@ -29,7 +29,7 @@ class Mashing extends Component  {
             
         </div>
         <div>
-        <iframe src="https://iot.app.initialstate.com/embed/#/tiles/bkt_59g8knf65h7l" className="iframe"></iframe>
+        <iframe src="https://iot.app.initialstate.com/embed/#/tiles/bkt_17iu8kolvd30z" className="iframe"></iframe>
         </div>
         <textarea className="result" value={this.state} >
 
