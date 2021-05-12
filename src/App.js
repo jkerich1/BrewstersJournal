@@ -10,6 +10,7 @@ import Boiling from './pages/Boiling';
 import Mashing from './pages/Mashing';
 import Data from './pages/Data';
 import Recipe from './pages/Recipe';
+import Notes from './pages/Notes';
 
 
 class App extends Component {
@@ -54,6 +55,9 @@ class App extends Component {
             <Recipe parentCallback={this.callbackFunction} />
           </Route>
 
+          <Route path='/Notes'>
+            <Notes />
+          </Route>
         </Router>
 
       </div>
