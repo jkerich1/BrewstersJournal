@@ -39,12 +39,12 @@ class App extends Component {
             <Home />
           </Route>
 
-          <Route path='/Boiling'>
-            <Boiling />
-          </Route>
-
           <Route path='/Mashing'>
             <Mashing />
+          </Route>
+
+          <Route path='/Boiling'>
+            <Boiling />
           </Route>
 
           <Route path='/Data'>

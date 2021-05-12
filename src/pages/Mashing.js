@@ -19,9 +19,9 @@ class Mashing extends Component  {
         <div className="shading">
             <h3>Mashing</h3>
             <p>Mashing Data goes here.</p>
-                <Button className="button" onClick={() => window.open('https://811b8f7d466f.ngrok.io/start', "_blank")}>Start</Button>
+                <Button className="button" onClick={() => window.open('https://96714180984d.ngrok.io/start', "_blank")}>Start</Button>
          
-                <Button className="button" onClick={() => window.open('https://811b8f7d466f.ngrok.io/stop', "_blank")}>Stop</Button>
+                <Button className="button" onClick={() => window.open('https://96714180984d.ngrok.io/stop', "_blank")}>Stop</Button>
            
             
            

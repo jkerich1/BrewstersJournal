@@ -19,8 +19,8 @@ function Navbar () {
         <div className="navbar-collapse collapse" id="mainNav">
           <div className="navbar-nav">
             <a className= "nav-item nav-link" href="/">Home<span className="sr-only">(current)</span></a>
-            <a className ="nav-item nav-link" href = "Boiling" >Boiling</a>
             <a className ="nav-item nav-link" href = "Mashing" >Mashing</a>
+            <a className ="nav-item nav-link" href = "Boiling" >Boiling</a>
             <a className ="nav-item nav-link" href = "Data" > Data</a>
             <a className ="nav-item nav-link" href = "Recipe" > Recipe</a>
             <a className ="nav-item nav-link" href = "Notes" > Notes</a>
